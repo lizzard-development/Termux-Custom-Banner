@@ -1,12 +1,14 @@
-#!/bin/bash
-
 clear
-apt update -y
-apt upgrade -y
-apt install toilet -y
+apt update
+apt upgrade
 apt install figlet -y
-apt install lolcat -y
+figlet Basic Installation
+apt install toilet -y
+apt install cowsay -y
 apt install nano -y
-
-figlet -f big "Tamam!" | lolcat
-echo -e "\nŞimdi Termux'u kapatıp tekrar açın!"
+apt install ruby -y
+gem install lolcat
+figlet -f big Tamam !!! | lolcat
+echo
+echo -e "[1m Şimdi basla.sh yaz!!!"
+echo
