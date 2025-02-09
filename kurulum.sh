@@ -23,8 +23,8 @@ else
     SELECTED_COLOR="196"
 fi
 
-# Banner'ı oluştur ve .bashrc'ye ekle
-echo "toilet -f big '$varbanner' -F border --gay | lolcat --truecolor --freq=0.5" > banner.txt
+# Banner'ı oluştur
+echo "toilet -f big '$varbanner' -F border | lolcat --truecolor --freq=0.5 --color=$SELECTED_COLOR" > banner.txt
 echo "clear" > temizle.txt
 
 # Banner'ı Termux başlangıcına ekle
